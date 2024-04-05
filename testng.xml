@@ -1,0 +1,9 @@
+<suite name = "Demo Project">
+    <test name="module1">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="http://[::1]/ip/index.php/sessions/login"/>
+        <classes>
+            <class name="Pages.ValidLoginPage"/>
+        </classes>
+    </test>
+</suite>
